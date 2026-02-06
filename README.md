@@ -1,4 +1,4 @@
-# Ac4y Base
+# java-ac4y-base
 
 Base utilities and services for Ac4y projects.
 
