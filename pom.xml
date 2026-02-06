@@ -6,11 +6,11 @@
 
     <groupId>ac4y</groupId>
     <artifactId>ac4y-base</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>Ac4y Base</name>
-    <description>Base utilities and services for Ac4y projects</description>
+    <description>Base services for Ac4y projects (depends on ac4y-utility)</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,6 +41,13 @@
     </repositories>
 
     <dependencies>
+        <!-- Ac4y Utility dependency -->
+        <dependency>
+            <groupId>ac4y</groupId>
+            <artifactId>ac4y-utility</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
